@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1258A1;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "HelveticaNeue", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: #fff;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 2%; /* Adjust the distance from the top as needed */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  /* Add more CSS styles for other elements on the page as needed */
+  
+  .image1 {
+    position: absolute;
+    top: 40%; /* Adjust the distance from the top as needed */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .image2 {
+    position: absolute;
+    top: 105%; /* Adjust the distance from the top as needed */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .text1 {
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 125%; /* Adjust the distance from the top as needed */
+    font-size: 4vw; /* Adjust the font size as needed */
+    font-weight: bold;
+}
+
+.text2 {
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 130%; /* Adjust the distance from the top as needed */
+    font-size: 8vw; /* Adjust the font size as needed */
+    font-weight: bold;
+}
+
+.text3 {
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 150%; /* Adjust the distance from the top as needed */
+    font-size: 2vw; /* Adjust the font size as needed */
+    font-weight: bold;
+    color: #BFD62F;
+}
+
+.text4 {
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 157%; /* Adjust the distance from the top as needed */
+    font-size: 1.5vw; /* Adjust the font size as needed */
+    color: #FFFF;
+}
+
+.text5 {
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 161%; /* Adjust the distance from the top as needed */
+    font-size: 1.5vw; /* Adjust the font size as needed */
+    color: #FFFF;
+}
+
+.text6 {
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 165%; /* Adjust the distance from the top as needed */
+    font-size: 1.5vw; /* Adjust the font size as needed */
+    color: #FFFF;
+}
+
+.text7 {
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 169%; /* Adjust the distance from the top as needed */
+    font-size: 1.5vw; /* Adjust the font size as needed */
+    color: #FFFF;
+}
+
+.text8 {
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 176%; /* Adjust the distance from the top as needed */
+    font-size: 1.5vw; /* Adjust the font size as needed */
+    font-weight: bold;
+    color: #F8CB3F;
+}
+
+.text9 {
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 180%; /* Adjust the distance from the top as needed */
+    font-size: 1.5vw; /* Adjust the font size as needed */
+    font-weight: bold;
+    color: #F8CB3F;
+}
+
+.text10 {
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 184%; /* Adjust the distance from the top as needed */
+    font-size: 1.5vw; /* Adjust the font size as needed */
+    font-weight: bold;
+    color: #F8CB3F;
+}
+
+.top-right-image {
+    position: absolute;
+    top: 0; /* Adjust the distance from the top as needed */
+    right: 0; /* Adjust the distance from the right as needed */
+}
+
+.bottom-left-image {
+    position: absolute;
+    bottom: -97%; /* Adjust the distance from the bottom as needed */
+    left: 0;
+}
+
+/* Media queries for responsive layout */
+@media screen and (max-width: 768px) {
+    .logo,
+    .image1,
+    .image2,
+    .text1,
+    .text2,
+    .text3,
+    .text4,
+    .text5,
+    .text6,
+    .text7,
+    .text8,
+    .text9,
+    .text10,
+    .top-right-image,
+    .bottom-left-image {
+        position: static;
+        transform: none;
+        font-size: initial;
+        /* Reset positioning and font-size for smaller screens */
+    }
+}
