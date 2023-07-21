@@ -10,7 +10,11 @@ body {
   Helvetica, Arial, "Lucida Grande", sans-serif;
     color: #fff;
   }
-  
+
+html {
+  overflow-x: hidden;
+}
+
   .logo {
     position: absolute;
     top: 2%; /* Adjust the distance from the top as needed */
